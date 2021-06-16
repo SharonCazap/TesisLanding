@@ -17,10 +17,13 @@
 }
 #div-bienvenida h2 {
   font-size: 36px;
-  padding: 20px 0;
+  padding-bottom: 20px;
+}
+#div-bienvenida h4{
+  font-size: 21px;
 }
 main h4 {
-  font-size: 21px;
+  font-size: 21px!important;
   padding: 20px 0 30px;
 }
 #presentacionTeBot, #personas, #servicios{
@@ -38,25 +41,30 @@ main h4 {
 }
 #presentacionTeBot #pasos div {
   background-color: #defff4;
-  width: 30%;
+  width: 22%;
   border-radius: 20px;
-  padding: 20px 0;
+  padding: 15px 10px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 #presentacionTeBot #pasos div span {
+  width: 100%;
   color: #45deab;
   font-size: 24px;
   font-weight: 800;
   margin: 0;
-  padding-right: 20px;
 }
 #presentacionTeBot #pasos div p {
   margin: 0;
   font-weight: 600;
   font-size: 18px;
+}
+#pasos a{
+  font-size: 18px;
+  font-weight: 800;
+  color: #1eb884;
 }
 #presentacionTeBot #personas section{
   display: flex;
@@ -120,9 +128,34 @@ main h4 {
   padding: 30px 0;
   justify-content: space-evenly;
 }
+#servicios section .servicio figure{
+  width: 120px;
+}
 #servicios section .servicio img {
   padding: 20px 0;
 }
 #servicios section .servicio p {
   width: 50%;
+}
+#contactoFooter{
+  background-color: #464646;
+}
+#contactoFooter h4{
+  color: #eaeaea;
+  font-size: 21px;
+  width: 50%;
+  padding: 10px 0 20px;
+}
+#contactoFooter #redes{
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#contactoFooter #redes svg{
+  width: 40px;
+  color: #45deab;
+}
+#contactoFooter #redes svg:hover{
+  color: #1eb884;
 }
