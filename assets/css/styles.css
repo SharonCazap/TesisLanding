@@ -1,0 +1,128 @@
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0 auto;
+}
+.wrapper {
+  width: 1440px;
+  padding: 20px 0;
+}
+.center {
+  text-align: center;
+}
+#div-bienvenida {
+  display: flex;
+  flex-direction: column;
+  background-color: #45deab;
+  padding: 40px 0;
+}
+#div-bienvenida h2 {
+  font-size: 36px;
+  padding: 20px 0;
+}
+main h4 {
+  font-size: 21px;
+  padding: 20px 0 30px;
+}
+#presentacionTeBot, #personas, #servicios{
+  padding: 10px 0;
+}
+#presentacionTeBot #entrada{
+  padding: 20px 0;
+  font-size: 18px;
+}
+#presentacionTeBot #pasos {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  padding: 20px 0;
+}
+#presentacionTeBot #pasos div {
+  background-color: #defff4;
+  width: 30%;
+  border-radius: 20px;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#presentacionTeBot #pasos div span {
+  color: #45deab;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0;
+  padding-right: 20px;
+}
+#presentacionTeBot #pasos div p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+#presentacionTeBot #personas section{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+#presentacionTeBot #personas section figure{
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin-top: 20px;
+}
+#presentacionTeBot #personas section figure img{
+  width: 100%;
+}
+#presentacionTeBot #personas section div{
+  padding: 20px;
+  background-color: #eefff9;
+  border-radius: 20px;
+  width: 30%;
+}
+#presentacionTeBot #personas section div h5{
+  font-size: 18px;
+}
+#presentacionTeBot #personas section div ul{
+  list-style: none;
+  padding: 20px 0 0;
+  width: 90%;
+  text-align: left;
+}
+#presentacionTeBot #personas section div ul li{
+  font-size: 16px;
+  padding: 5px 0;
+}
+#presentacionTeBot #personas section div ul li span{
+  font-weight: 800;
+}
+#personas p{
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 20px 0;
+}
+#personas a{
+  font-size: 18px;
+  font-weight: 800;
+  color: #45deab;
+}
+#servicios section{
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  width: 100%;
+}
+#servicios section .servicio {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 30px 0;
+  justify-content: space-evenly;
+}
+#servicios section .servicio img {
+  padding: 20px 0;
+}
+#servicios section .servicio p {
+  width: 50%;
+}
