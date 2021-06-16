@@ -129,7 +129,7 @@ main h4 {
   justify-content: space-evenly;
 }
 #servicios section .servicio figure{
-  width: 120px;
+  width: 80px;
 }
 #servicios section .servicio img {
   padding: 20px 0;
@@ -153,7 +153,7 @@ main h4 {
   align-items: center;
 }
 #contactoFooter #redes svg{
-  width: 40px;
+  width: 30px;
   color: #45deab;
 }
 #contactoFooter #redes svg:hover{
