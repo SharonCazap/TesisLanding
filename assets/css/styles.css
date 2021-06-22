@@ -6,6 +6,11 @@
   width: 1440px;
   padding: 20px 0;
 }
+@media (max-width: 1440px){
+  .wrapper{
+    width: 100%;
+  }
+}
 .center {
   text-align: center;
 }
@@ -49,6 +54,17 @@ main h4 {
   align-items: center;
   justify-content: space-evenly;
 }
+@media (max-width: 1000px){
+  #presentacionTeBot #pasos{
+    flex-flow: row wrap;
+  }
+}
+@media (max-width: 1000px){
+  #presentacionTeBot #pasos div{
+    width: 45%;
+    margin-top: 10px;
+  }
+}
 #presentacionTeBot #pasos div span {
   width: 100%;
   color: #45deab;
@@ -71,6 +87,7 @@ main h4 {
   flex-direction: row;
   width: 100%;
 }
+
 #presentacionTeBot #personas section figure{
   width: 100px;
   height: 100px;
@@ -86,6 +103,20 @@ main h4 {
   background-color: #eefff9;
   border-radius: 20px;
   width: 30%;
+}
+@media (max-width: 1000px){
+  #personas section div{
+    width: 25%!important;
+  }
+}
+@media (max-width: 850px){
+  #personas section{
+    flex-direction: column!important;
+  }
+  #personas section div{
+    width: 80%!important;
+    margin-top: 10px;
+  }
 }
 #presentacionTeBot #personas section div h5{
   font-size: 18px;
