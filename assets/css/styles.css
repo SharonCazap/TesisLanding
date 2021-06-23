@@ -6,11 +6,6 @@
   width: 1440px;
   padding: 20px 0;
 }
-@media (max-width: 1440px){
-  .wrapper{
-    width: 100%;
-  }
-}
 .center {
   text-align: center;
 }
@@ -54,17 +49,6 @@ main h4 {
   align-items: center;
   justify-content: space-evenly;
 }
-@media (max-width: 1000px){
-  #presentacionTeBot #pasos{
-    flex-flow: row wrap;
-  }
-}
-@media (max-width: 1000px){
-  #presentacionTeBot #pasos div{
-    width: 45%;
-    margin-top: 10px;
-  }
-}
 #presentacionTeBot #pasos div span {
   width: 100%;
   color: #45deab;
@@ -87,7 +71,6 @@ main h4 {
   flex-direction: row;
   width: 100%;
 }
-
 #presentacionTeBot #personas section figure{
   width: 100px;
   height: 100px;
@@ -103,20 +86,6 @@ main h4 {
   background-color: #eefff9;
   border-radius: 20px;
   width: 30%;
-}
-@media (max-width: 1000px){
-  #personas section div{
-    width: 25%!important;
-  }
-}
-@media (max-width: 850px){
-  #personas section{
-    flex-direction: column!important;
-  }
-  #personas section div{
-    width: 80%!important;
-    margin-top: 10px;
-  }
 }
 #presentacionTeBot #personas section div h5{
   font-size: 18px;
@@ -189,4 +158,69 @@ main h4 {
 }
 #contactoFooter #redes svg:hover{
   color: #1eb884;
+}
+
+@media (max-width: 1440px){
+  .wrapper{
+    width: 100%;
+  }
+  #servicios section .servicio p {
+    width: 80%;
+  }
+}
+@media (max-width: 1000px){
+  #presentacionTeBot #pasos{
+    flex-flow: row wrap;
+  }
+  #presentacionTeBot #pasos div{
+    width: 45%;
+    margin-top: 10px;
+  }
+  #personas section div{
+    width: 25%!important;
+  }
+  #contactoFooter h4{
+    font-size: 18px;
+    width: 90%;
+  }
+}
+@media (max-width: 850px){
+  #personas section{
+    flex-direction: column!important;
+  }
+  #personas section div{
+    width: 80%!important;
+    margin-top: 10px;
+  }
+  #servicios section{
+    flex-direction: row;
+    flex-flow: column;
+  }
+  #servicios section .servicio{
+    flex-direction: row;
+    width: 60%;
+    align-items: center;
+  }
+  #contactoFooter #redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #contactoFooter #redes a{
+    padding: 0 10px;
+  }
+}
+@media (max-width: 550px){
+  #servicios section .servicio{
+    width: 80%;
+  }
+  #servicios section .servicio p {
+    width: 60%;
+  }
+  #servicios section .servicio {
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+  }
 }
