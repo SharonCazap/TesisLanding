@@ -130,12 +130,18 @@ main h4 {
 }
 #servicios section .servicio figure{
   width: 80px;
+  height: 130px;
+  display: flex;
 }
 #servicios section .servicio img {
   padding: 20px 0;
 }
 #servicios section .servicio p {
-  width: 50%;
+  width: 80%;
+}
+#servicios section .servicio span{
+  font-weight: 800;
+  padding-bottom: 10px;
 }
 #contactoFooter{
   background-color: #464646;
@@ -212,14 +218,11 @@ main h4 {
   }
 }
 @media (max-width: 550px){
-  #servicios section .servicio{
-    width: 80%;
-  }
   #servicios section .servicio p {
     width: 60%;
   }
   #servicios section .servicio {
-    flex-direction: row;
+    flex-direction: column;
     width: 80%;
     align-items: center;
   }
